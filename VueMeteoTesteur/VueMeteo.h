@@ -16,7 +16,7 @@
 
 #include "ui_VueMeteo.h"
 
-class VueMeteo : public QDialog {
+class VueMeteo : public QWidget {
     Q_OBJECT
 public:
     VueMeteo();
