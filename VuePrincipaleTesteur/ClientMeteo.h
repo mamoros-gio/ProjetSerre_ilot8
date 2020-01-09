@@ -17,7 +17,11 @@
 class ClientMeteo {
 public:
     ClientMeteo();
-    virtual ~ClientMeteo();
+    ~ClientMeteo();
+    void traiterBulletinMeteo(BulletinMeteo bulletin);
+    void declancherAlerteVent();
+    void declancherFinAlerteVent();
+    void getBulletinMeteo();
 private:
 
 };
