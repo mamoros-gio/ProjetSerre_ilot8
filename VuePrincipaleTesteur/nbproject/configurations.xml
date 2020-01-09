@@ -4,6 +4,8 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>ClientMeteo.h</itemPath>
+      <itemPath>Superviseur.h</itemPath>
       <itemPath>VuePrincipale.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -14,6 +16,8 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>ClientMeteo.cpp</itemPath>
+      <itemPath>Superviseur.cpp</itemPath>
       <itemPath>VuePrincipale.cpp.cc</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -42,6 +46,14 @@
       </qt>
       <compileType>
       </compileType>
+      <item path="ClientMeteo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClientMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Superviseur.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Superviseur.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="VuePrincipale.cpp.cc" ex="false" tool="1" flavor2="0">
       </item>
       <item path="VuePrincipale.h" ex="false" tool="3" flavor2="0">
@@ -75,6 +87,14 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="ClientMeteo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClientMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Superviseur.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Superviseur.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="VuePrincipale.cpp.cc" ex="false" tool="1" flavor2="0">
       </item>
       <item path="VuePrincipale.h" ex="false" tool="3" flavor2="0">
