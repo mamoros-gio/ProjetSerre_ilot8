@@ -19,3 +19,8 @@ VueMeteo::VueMeteo() {
 
 VueMeteo::~VueMeteo() {
 }
+
+void VueMeteo::mettreAJour() {
+    widget.vitesseVent->setText("fort");
+    widget.temperature->setText("chaud");
+}
