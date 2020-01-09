@@ -14,9 +14,7 @@
 #include "Superviseur.h"
 
 Superviseur::Superviseur() {
-}
-
-Superviseur::Superviseur(const Superviseur& orig) {
+    ClientMeteo *leClientMeteo = new ClientMeteo;
 }
 
 Superviseur::~Superviseur() {

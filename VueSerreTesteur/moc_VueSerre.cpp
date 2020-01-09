@@ -1,16 +1,16 @@
 /****************************************************************************
-** Meta object code from reading C++ file 'VueMeteo.h'
+** Meta object code from reading C++ file 'VueSerre.h'
 **
 ** Created by: The Qt Meta Object Compiler version 67 (Qt 5.7.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "VueMeteo.h"
+#include "VueSerre.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
-#error "The header file 'VueMeteo.h' doesn't include <QObject>."
+#error "The header file 'VueSerre.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
 #error "This file was generated using the moc from 5.7.0. It"
 #error "cannot be used with the include files from this version of Qt."
@@ -18,25 +18,25 @@
 #endif
 
 QT_BEGIN_MOC_NAMESPACE
-struct qt_meta_stringdata_VueMeteo_t {
+struct qt_meta_stringdata_VueSerre_t {
     QByteArrayData data[1];
     char stringdata0[9];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_VueMeteo_t, stringdata0) + ofs \
+    qptrdiff(offsetof(qt_meta_stringdata_VueSerre_t, stringdata0) + ofs \
         - idx * sizeof(QByteArrayData)) \
     )
-static const qt_meta_stringdata_VueMeteo_t qt_meta_stringdata_VueMeteo = {
+static const qt_meta_stringdata_VueSerre_t qt_meta_stringdata_VueSerre = {
     {
-QT_MOC_LITERAL(0, 0, 8) // "VueMeteo"
+QT_MOC_LITERAL(0, 0, 8) // "VueSerre"
 
     },
-    "VueMeteo"
+    "VueSerre"
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_VueMeteo[] = {
+static const uint qt_meta_data_VueSerre[] = {
 
  // content:
        7,       // revision
@@ -52,7 +52,7 @@ static const uint qt_meta_data_VueMeteo[] = {
        0        // eod
 };
 
-void VueMeteo::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void VueSerre::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     Q_UNUSED(_o);
     Q_UNUSED(_id);
@@ -60,26 +60,26 @@ void VueMeteo::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
     Q_UNUSED(_a);
 }
 
-const QMetaObject VueMeteo::staticMetaObject = {
-    { &QWidget::staticMetaObject, qt_meta_stringdata_VueMeteo.data,
-      qt_meta_data_VueMeteo,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
+const QMetaObject VueSerre::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_VueSerre.data,
+      qt_meta_data_VueSerre,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
 };
 
 
-const QMetaObject *VueMeteo::metaObject() const
+const QMetaObject *VueSerre::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *VueMeteo::qt_metacast(const char *_clname)
+void *VueSerre::qt_metacast(const char *_clname)
 {
     if (!_clname) return Q_NULLPTR;
-    if (!strcmp(_clname, qt_meta_stringdata_VueMeteo.stringdata0))
-        return static_cast<void*>(const_cast< VueMeteo*>(this));
+    if (!strcmp(_clname, qt_meta_stringdata_VueSerre.stringdata0))
+        return static_cast<void*>(const_cast< VueSerre*>(this));
     return QWidget::qt_metacast(_clname);
 }
 
-int VueMeteo::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int VueSerre::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QWidget::qt_metacall(_c, _id, _a);
     if (_id < 0)
