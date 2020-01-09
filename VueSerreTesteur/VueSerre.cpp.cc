@@ -15,14 +15,13 @@
 
 VueSerre::VueSerre() {
     widget.setupUi(this);
-    VueSerre serre= new VueSerre();
-    
 }
-
 VueSerre::~VueSerre() {
     
 }
-
-VueSerre::mettreAJour(){
-    
+void VueSerre::mettreAJour(){
+    widget.temperature->setText("22");
+    widget.hygrometrie->setText("45");
+    widget.luminosite->setText("120");
+    widget.positionOuvrants->setText("Ouvert");
 }
