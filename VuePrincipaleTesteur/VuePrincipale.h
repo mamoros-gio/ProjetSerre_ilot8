@@ -22,7 +22,6 @@ public:
     VuePrincipale();
     virtual ~VuePrincipale();
     void mettreAJour();
-    void addWidget();
 private:
     Ui::VuePrincipale widget;
 };
