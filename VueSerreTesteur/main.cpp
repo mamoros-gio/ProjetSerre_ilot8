@@ -19,11 +19,14 @@ int main(int argc, char *argv[]) {
     // Q_INIT_RESOURCE(resfile);
 
     QApplication app(argc, argv);
-
-    VueSerre* serre= new VueSerre();
-    
-    serre->mettreAJour();
+    Infoclimat* infos= new Infoclimat();
+    VueSerre* serre= new VueSerre("serre1", infos);
+    infos->setTemperature(18);
+    infos->setHygrometrie(54);
+    infos->setPositionOuvrants(75);
+    infos->setLuminosite(240);
+    infos->setDate(210120);
     serre->show();
-
+    
     return app.exec();
 }
