@@ -8,12 +8,15 @@
 
 VuePrincipale::VuePrincipale() {
     widget.setupUi(this);
+    laVueMeteo = new VueMeteo();
+    widget.meteo;
+    laVueSerre =new VueSerre();
+    
 }
 
 VuePrincipale::~VuePrincipale() {
 }
 
 VuePrincipale::mettreAJour() {
-    VueMeteo*VueMeteo= new VuePrincipale();
     //VuePrincipale*VueSerre=new VuePrincipale();
 }

@@ -5,20 +5,23 @@
  */
 
 /* 
- * File:   ClientMeteo.cpp
+ * File:   Serre.h
  * Author: snir2g2
- * 
- * Created on 21 janvier 2020, 16:11
+ *
+ * Created on 21 janvier 2020, 16:26
  */
 
-#include "ClientMeteo.h"
+#ifndef SERRE_H
+#define SERRE_H
 
-ClientMeteo::ClientMeteo() {
-}
+class Serre {
+public:
+    Serre();
+    ~Serre();
+    void executerCommande();
+private:
 
-ClientMeteo::ClientMeteo(const ClientMeteo& orig) {
-}
+};
 
-ClientMeteo::~ClientMeteo() {
-}
+#endif /* SERRE_H */
 

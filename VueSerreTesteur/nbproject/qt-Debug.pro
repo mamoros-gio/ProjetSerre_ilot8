@@ -8,9 +8,15 @@ CONFIG -= debug_and_release app_bundle lib_bundle
 CONFIG += debug 
 PKGCONFIG +=
 QT = core gui widgets
+<<<<<<< HEAD
 SOURCES += ../ClassesMetier/Observable.cpp ../ClassesMetier/Observateur.cpp ../ClassesMetier/infoclimat.cpp VueSerre.cpp.cc main.cpp
 HEADERS += ../ClassesMetier/Observable.h ../ClassesMetier/Observateur.h ../ClassesMetier/infoclimat.h VueSerre.h
 FORMS += ../../../VueSerre.ui
+=======
+SOURCES += VueSerre.cpp.cc main.cpp
+HEADERS += VueSerre.h
+FORMS +=
+>>>>>>> 236786ae8b370589f79fa6956d3e36287667ae7d
 RESOURCES +=
 TRANSLATIONS +=
 OBJECTS_DIR = build/Debug/GNU-Linux

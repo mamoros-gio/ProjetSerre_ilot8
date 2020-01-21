@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /* 
  * File:   Superviseur.h
  * Author: snir2g2
@@ -13,6 +7,7 @@
 
 #ifndef SUPERVISEUR_H
 #define SUPERVISEUR_H
+#include "ClientMeteo.h"
 
 class Superviseur {
 public:
@@ -20,6 +15,8 @@ public:
     ~Superviseur();
     ClientMeteo* getLeClientMeteo();
     void setVuePrincipale(VuePrincipale uneVuePrincipale);
+private :
+    ClientMeteo* leClientMeteo;
 };
 
 #endif /* SUPERVISEUR_H */
