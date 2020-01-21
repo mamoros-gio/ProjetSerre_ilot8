@@ -13,7 +13,7 @@
 
 #ifndef _VUEPRINCIPALE_H
 #define _VUEPRINCIPALE_H
-
+#include "../VueSerreTesteur/VueSerre.h"
 #include "ui_VuePrincipale.h"
 
 class VuePrincipale : public QWidget {
@@ -25,6 +25,7 @@ public:
 private:
     Ui::VuePrincipale widget;
     VueMeteo * laVueMeteo;
+    VueSerre * laVueSerre;
 };
 
 #endif /* _VUEPRINCIPALE_H */
