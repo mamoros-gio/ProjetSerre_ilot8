@@ -17,6 +17,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>ClientMeteo.cpp</itemPath>
       <itemPath>Superviseur.cpp</itemPath>
       <itemPath>../VueMeteoTesteur/VueMeteo.cpp.cc</itemPath>
       <itemPath>VuePrincipale.cpp.cc</itemPath>
@@ -49,8 +50,6 @@
       <item path="../VueMeteoTesteur/VueMeteo.cpp.cc" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../VueMeteoTesteur/VueMeteo.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="../VueMeteoTesteur/VueMeteo.ui" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ClientMeteo.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -96,8 +95,6 @@
       <item path="../VueMeteoTesteur/VueMeteo.cpp.cc" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../VueMeteoTesteur/VueMeteo.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="../VueMeteoTesteur/VueMeteo.ui" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ClientMeteo.cpp" ex="false" tool="1" flavor2="0">
       </item>
