@@ -16,15 +16,27 @@
 #include "VueMeteo.h"
 
 int main(int argc, char *argv[]) {
-    // initialize resources, if needed
-    // Q_INIT_RESOURCE(resfile);
-
     QApplication app(argc, argv);
 
-    VueMeteo *meteo = new VueMeteo();
-    meteo->show();
-    meteo->mettreAJour();
-    // create and show your widgets here
+    /*VueMeteo *meteo = new VueMeteo();*/
+    
+    
+    BulletinMeteo *lletinMeteo = new BulletinMeteo();
+    VueMeteo *ueMeteo = new VueMeteo(lletinMeteo);
+    ueMeteo->show();
+    
+    lletinMeteo->setVitesseVent(84);
+    lletinMeteo->setTemperature(37);
+    
+    //ueMeteo->mettreAJour();
+    
+    
+    //lletinMeteo->setVitesseVent(55);
+    //lletinMeteo->setTemperature(75);
+    
+    //instancier un bulletin
+    //instancier une vueMeteo qui prend en compte le bulletin
+    //setter la vitesse du vent et la temperature
 
     return app.exec();
 }

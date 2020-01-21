@@ -10,17 +10,20 @@
  *
  * Created on 19 décembre 2019, 15:04
  */
-
 #include "VueMeteo.h"
 
-VueMeteo::VueMeteo() {
+VueMeteo::VueMeteo(BulletinMeteo *unBulletinMeteo) {
     widget.setupUi(this);
+    this->dernierBulletinMeteo = unBulletinMeteo;
+    this->dernierBulletinMeteo->addObservateur(this);
 }
 
 VueMeteo::~VueMeteo() {
 }
 
 void VueMeteo::mettreAJour() {
-    widget.vitesseVent->setText("fort");
-    widget.temperature->setText("chaud");
+    widget.temperature->setText(QString::number(dernierBulletinMeteo->getTemperature()));
+    widget.vitesseVent->setText(QString::number(dernierBulletinMeteo->getVitesseVent()));
+    /*widget.vitesseVent->setText("00");
+    widget.temperature->setText("00");*/
 }
