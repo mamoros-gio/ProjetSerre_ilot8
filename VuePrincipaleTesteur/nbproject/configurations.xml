@@ -50,13 +50,10 @@
       </item>
       <item path="../VueMeteoTesteur/VueMeteo.h" ex="false" tool="3" flavor2="0">
       </item>
-<<<<<<< HEAD
       <item path="../VueMeteoTesteur/VueMeteo.ui" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ClientMeteo.cpp" ex="false" tool="1" flavor2="0">
       </item>
-=======
->>>>>>> 349f317e29d1f636ab5c44dd63c7e23d133cd3e0
       <item path="ClientMeteo.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Superviseur.cpp" ex="false" tool="1" flavor2="0">
@@ -100,13 +97,10 @@
       </item>
       <item path="../VueMeteoTesteur/VueMeteo.h" ex="false" tool="3" flavor2="0">
       </item>
-<<<<<<< HEAD
       <item path="../VueMeteoTesteur/VueMeteo.ui" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ClientMeteo.cpp" ex="false" tool="1" flavor2="0">
       </item>
-=======
->>>>>>> 349f317e29d1f636ab5c44dd63c7e23d133cd3e0
       <item path="ClientMeteo.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Superviseur.cpp" ex="false" tool="1" flavor2="0">
