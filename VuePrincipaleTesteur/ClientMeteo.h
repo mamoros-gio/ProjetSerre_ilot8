@@ -8,7 +8,7 @@
  * File:   ClientMeteo.h
  * Author: snir2g2
  *
- * Created on 9 janvier 2020, 17:38
+ * Created on 21 janvier 2020, 16:11
  */
 
 #ifndef CLIENTMETEO_H
@@ -19,12 +19,13 @@ public:
     ClientMeteo();
     ~ClientMeteo();
     void traiterBulletinMeteo(BulletinMeteo bulletin);
-    void declancherAlerteVent();
-    void declancherFinAlerteVent();
+    void declancherAlarmeVent();
+    void declancherFinAlarmeVent();
     void getBulletinMeteo();
 private:
 
 };
 
 #endif /* CLIENTMETEO_H */
+
 
