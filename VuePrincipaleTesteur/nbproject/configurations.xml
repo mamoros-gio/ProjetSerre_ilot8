@@ -8,7 +8,6 @@
       <itemPath>Superviseur.h</itemPath>
       <itemPath>../VueMeteoTesteur/VueMeteo.h</itemPath>
       <itemPath>VuePrincipale.h</itemPath>
-      <itemPath>vueSerre.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -18,12 +17,10 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>ClientMeteo.cpp</itemPath>
       <itemPath>Superviseur.cpp</itemPath>
       <itemPath>../VueMeteoTesteur/VueMeteo.cpp.cc</itemPath>
       <itemPath>VuePrincipale.cpp.cc</itemPath>
       <itemPath>main.cpp</itemPath>
-      <itemPath>vueSerre.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -34,7 +31,6 @@
                    displayName="Important Files"
                    projectFiles="false"
                    kind="IMPORTANT_FILES_FOLDER">
-      <itemPath>Makefile</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
@@ -54,10 +50,13 @@
       </item>
       <item path="../VueMeteoTesteur/VueMeteo.h" ex="false" tool="3" flavor2="0">
       </item>
+<<<<<<< HEAD
       <item path="../VueMeteoTesteur/VueMeteo.ui" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ClientMeteo.cpp" ex="false" tool="1" flavor2="0">
       </item>
+=======
+>>>>>>> 349f317e29d1f636ab5c44dd63c7e23d133cd3e0
       <item path="ClientMeteo.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Superviseur.cpp" ex="false" tool="1" flavor2="0">
@@ -71,10 +70,6 @@
       <item path="VuePrincipale.ui" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="vueSerre.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="vueSerre.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="4">
@@ -105,10 +100,13 @@
       </item>
       <item path="../VueMeteoTesteur/VueMeteo.h" ex="false" tool="3" flavor2="0">
       </item>
+<<<<<<< HEAD
       <item path="../VueMeteoTesteur/VueMeteo.ui" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ClientMeteo.cpp" ex="false" tool="1" flavor2="0">
       </item>
+=======
+>>>>>>> 349f317e29d1f636ab5c44dd63c7e23d133cd3e0
       <item path="ClientMeteo.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Superviseur.cpp" ex="false" tool="1" flavor2="0">
@@ -122,10 +120,6 @@
       <item path="VuePrincipale.ui" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="vueSerre.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="vueSerre.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>
