@@ -24,6 +24,7 @@ public:
     void mettreAJour();
 private:
     Ui::VuePrincipale widget;
+    VueMeteo * laVueMeteo;
 };
 
 #endif /* _VUEPRINCIPALE_H */
